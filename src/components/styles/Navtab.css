@@ -1,0 +1,126 @@
+/* Set logo */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+/* Set Header */
+.header {
+  background-color: #121426;
+  padding-top: 10px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* Changed navbar background color */
+/* used !important to override Bootstrap css file */
+.bg-light {
+  background-color: #121426 !important;
+}
+
+/* Changed navbar selection name color */
+.nav-link {
+  color: white !important;
+  padding-right: 7.2rem !important;
+  padding-left: 2.5rem !important;
+}
+
+/* Changed name color */
+.navbar-brand {
+  color: white !important;
+}
+
+/* set image position */
+/* img {
+  display: inline;
+} */
+
+/* Change portfolio navbar style */
+.btn-secondary {
+  background: transparent !important;
+  border: transparent !important;
+  color: white !important;
+  text-transform: uppercase !important;
+  padding: 0.5rem 1rem;
+}
+
+/* Change the dropdown link style */
+a {
+  color: white !important;
+  background-color: transparent !important;
+  margin: auto !important;
+}
+
+hr {
+  border-top: 4px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .dropdown-menu {
+  position: static;
+  float: none;
+  background: black !important;
+}
+
+/* create side by side image by float */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.img-thumbnail {
+  border: none !important;
+}
+
+.formcontainer {
+  color: #121426;
+  text-align: left;
+  font-family: "futura-pt", sans-serif;
+  /* padding-bottom: 30px; */
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(21, 196, 154) !important;
+  border-color: rgb(21, 196, 154) !important;
+}
+
+textarea.form-control {
+  min-height: 200px;
+  height: auto;
+}
+
+.footer {
+  color: #fff;
+  padding: 30px;
+  clear: both;
+  font-family: "futura-pt", sans-serif;
+  text-align: center;
+  background-color: #121426;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../img/Navbar.jpg) !important;
+}
+
+.card-title,
+.card-text {
+  color: Black;
+  text-align: left;
+}
