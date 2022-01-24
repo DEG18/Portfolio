@@ -55,7 +55,7 @@ function Portfolio(props) {
             <a href="#portfolio" onClick={() => props.handlePageChange("Portfolio")}
               ><img
                 src={temimg}
-                alt="Temporary-Img by Yu Shi"
+                alt="Temporary-Img by Yu Shi Should be a link to my CV"
                 style={styles.sport1}
             /></a>
           </div>
